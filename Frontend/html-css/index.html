@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML-CSSの復習</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <h1>HTML-CSSの復習</h1>
-    <div>
+    <section>
         <h2>各タグの使い方</h2>
         <div>
             <h3>h1~h6タグ</h3>
@@ -57,9 +58,76 @@
         </div>
         <div>
             <h3>aタグ</h3>
-            <p><a href="https://github.com/devegoma">リンク</a>を表す</p>
+            <p>
+                <a href="https://github.com/devegoma">リンク</a>を表す<br>
+                <a href="https://github.com/devegoma" target="_blank">リンク</a>を新しいタブで開く<br>
+                <a href="mailto:">リンク</a>mailtoリンクなんかもある
+            </p>
         </div>
-    </div>
+        <div>
+            <h3>スパンタグ</h3>
+            <span>スパンタグはスクリプトなどを読み込ませたりする</span>
+        </div>
+        <div>
+            <h3>id属性</h3>
+            <p>
+                一意なidを指定するために使用する<br>
+                cssでidを指定してスタイルを入れたり、jsで要素の取得に使ったりする
+            </p>
+        </div>
+        <div>
+            <h3>class属性</h3>
+            <p>
+                複数の要素に同じclass名を付与できid属性に似ている
+            </p>
+        </div>
+        <div>
+            <h3>style属性</h3>
+            <p>インラインでスタイルを指定をするために使う</p>
+            <p style="color: blue;">こういう風に</p>
+        </div>
+        <div>
+            <h3>番号付きリスト</h3>
+            <ol>
+                <li>文章1</li>
+                <li>文章2</li>
+            </ol>
+            <h3>箇条書きリスト</h3>
+            <ul>
+                <li>文章1</li>
+                <li>文章2</li>
+            </ul>
+            <h3>説明リスト</h3>
+            <dl>
+                <dt>タイトル1</dt>
+                <dd>説明1</dd>
+                <dt>タイトル2</dt>
+                <dd>説明2</dd>
+            </dl>
+        </div>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>test1</th>
+                        <th>test2</th>
+                        <th>test3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>section1</th>
+                        <td>description1</td>
+                        <td>description2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h3>組み込みタグ</h3>
+            <img src="/image/IMG_4419.png" alt="見えないときのテキスト" width="20%" height="20%">
+        </div>
+    </section>
 </body>
 
 </html>
