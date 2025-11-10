@@ -23,7 +23,7 @@ Copilot Chatの左下アイコンから"Personal instructions"を選び、そこ
 下記のツリー状にファイルを入れる
 ```markdown-tree
 .github/
-	custom-instruction.md: リポジトリ設定(グローバル設定)
+	copilot-instructions.md: リポジトリ設定(グローバル設定)
 	instructions/
 		*.instructions.md: リポジトリ設定(パス固有設定)
 	prompts/
