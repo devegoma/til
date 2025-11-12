@@ -41,3 +41,11 @@ url: "https://aws.amazon.com/jp/blogs/news/compute-operating-lambda-anti-pattern
 favicon: ""
 aspectRatio: "50"
 ```
+
+# コード署名
+署名無しのコードのデプロイをブロックしたりできるらしい
+# StepFunction
+複数のLambda関数をステートマシンと呼ばれるサーバーレスワークフローに接続できるオーケストレーションサービス
+![](../image/Pasted%20image%2020251111125141.png)
+これらをGUIで複雑に設定できるらしい
+Lambdaとはまた別のサービス
